@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Object Prototypes | COMP1073 Client-Side JavaScript</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="css/normalize.css" rel="stylesheet" />
+	<link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body style = background-color:lightgreen>
+	<div id="mydata"></div>
+	<header>
+        <h1><i><b>Welcome to my application</b></i></h1>
+	</header>
+	
+	<script>
+		fetch("products.json")
+		.then(function (data){
+			appendData(data);
+		});
+		function appendData(data){
+			let main = document.getElementById("mydata");
+			for(let i=0;i<data.length; i++){
+				let div = document.createElement("div");
+				div.innerHTML = "Product1st_Name:" + data[i].product1Name + " " + 
+								"Price:" + data[i].price + " " +
+								"Description:" + data[i].description + " " +
+								"Features:" + data[i].features + " " +
+								"Image:" + data[i].image;
+				main.appendChild(div);
+			}
+		}
+	</script>
+	</body>
+</html>

@@ -1,0 +1,44 @@
+{
+  "mydata":[
+  {
+    "id": "1",
+    "product1Name": "Uranium Ore",
+    "price": 39.95,
+    "description": "This is the ore mined through open-pit  ining and different technologies.",
+    "features": "Uranium ore is highly soluable, as well as radioactive element.",
+    "image": "uranium.jpeg"
+  },
+  {
+    "id": "2",
+    "product2Name": "A Dog Dryer",
+    "price": 39.95,
+    "description": "This dryer soaks the water from the dog and stops the dog from dripping water all over the house.",
+    "features": "This dryer is easy to use and soaks all the water from the body.",
+    "image": "dogdryer.jpeg"
+  },
+  {
+    "id": "3",
+    "product3Name": "A Desktop Refrigerator",
+    "price": 38.00,
+    "description": "This is like a small refrigerator where you can store your beverage or anything and it will remain child.",
+    "features": "They provide the significant space to store the stuff and effiecient temperature control system.",
+    "image": "refrigerator.jpeg"
+  },
+  {
+    "id": "4",
+    "product4Name": "A Pizza Hat",
+    "price": 11.62,
+    "description": "This pizza hat is quite good looking and everyone who loves pizza can wear it on their head. ",
+    "features": "It is a comedy symbol for creating fun around.",
+    "image": "pizzahat.jpeg"
+  },
+  {
+    "id": "5",
+    "product5Name": "A Baby Mop",
+    "price": 29.99,
+    "description": "This baby mop is good thing to keep your baby clean and teach them the chores of the house.",
+    "features": "It is good way to teach babies about cleaning and easen your work.",
+    "image": "babymop.jpeg"
+  }
+]
+}
